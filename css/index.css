@@ -200,6 +200,7 @@ img {
   font-size: 1.4em;
   font-family: 'Roboto';
   line-height: 1;
+  color: #212529;
   margin-right: 10%;
 }
 @media (max-width:800px) {
@@ -282,6 +283,18 @@ img {
   .home .content-section {
     width: 90%;
     flex-direction: column;
+  }
+}
+@media (max-width:800px) {
+  .home .content-section {
+    background-color: #FFEBCD;
+    padding: 3%;
+  }
+}
+@media (max-width:500px) {
+  .home .content-section {
+    background-color: #FFFFFF;
+    padding: 0;
   }
 }
 .home .inverse-content {

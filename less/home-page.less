@@ -10,12 +10,13 @@
     }
 
   }
+
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
- 
+
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -41,6 +42,15 @@
     @media @mobile{
       width: 90%;
       flex-direction: column;
+  }
+  @media @tablet{
+    background-color:@footer-bg;
+    padding:3%;
+  }
+
+  @media @mobile{
+    background-color:@main-bg;
+    padding:0;
   }
   }
 
