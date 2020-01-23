@@ -178,6 +178,9 @@ img {
   border-bottom: 2px dashed lightgray;
   padding: 2% 0;
 }
+.navigation h1 {
+  margin-left: 10%;
+}
 .navigation nav {
   width: 40%;
   display: flex;
@@ -186,6 +189,7 @@ img {
   font-size: 1.4em;
   font-family: 'Roboto';
   line-height: 1;
+  margin-right: 10%;
 }
 .navigation nav a {
   color: black;
@@ -200,6 +204,16 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px dashed lightgray;
+}
+.home header div {
+  padding: 3% 0;
 }
 .home .content-section {
   margin: 30px 0;
