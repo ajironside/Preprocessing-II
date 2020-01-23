@@ -1,5 +1,5 @@
 .bottom-border {
-  border-bottom: 2px dotted lightgray;
+  border-bottom: 2px dashed lightgray;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -170,6 +170,25 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px dashed lightgray;
+  padding: 2% 0;
+}
+.navigation nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.4em;
+  font-family: 'Roboto';
+  line-height: 1;
+}
+.navigation nav a {
+  color: black;
 }
 .footer {
   width: 100%;
