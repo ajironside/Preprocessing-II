@@ -1,1 +1,31 @@
 // Mixins in here
+.change-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.bottom-border{
+    border-bottom: 2px dashed lightgray;
+}
+
+.fonts(@size, @family, @spacing){
+    font-size: @size;
+    font-family: @family;
+    line-height: @spacing;
+    color: @font-color;
+}
+
+.custom-btn(@color, @background,@size){
+    color: @color;
+    background-color: @background;
+    font-size: @size;
+    border: 1px solid gray;
+    border-radius: 1em;
+    padding:5%;
+    width:90%;
+   .change-layout(center, center)
+    
+}
+
+

@@ -1,1 +1,48 @@
 // Navigation Styles here
+.navigation {
+    .change-layout(space-around, center);
+    .bottom-border;
+    padding:2% 0;
+
+    @media @mobile{
+        flex-direction: column;
+    }
+    
+    h1{
+        margin-left: 10%;
+        @media @mobile{
+            font-size: 3em;
+            padding:2% 0;
+        }
+
+    }
+
+    nav{
+        width:40%;
+        .change-layout(space-evenly, center);
+        .fonts(1.4em, 'Roboto', 1);
+        margin-right: 10%;
+
+        @media @tablet {
+            width:70%;
+            margin:0;
+        }
+
+        @media @mobile{
+            width: 100%;
+        }
+        
+        a{
+            color: black;
+
+            @media @tablet {
+                font-size: 1.7em;
+                margin:0;
+            }
+
+            @media @mobile{
+                font-size: 1em;
+            }
+        }
+    }
+}
